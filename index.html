@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
+    <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+
+
+
+    
 </head>
-<body>
-   <nav class="bg-purple-600 p-4 flex justify-between items-center shadow-lg">
-        <div class="text-black font-bold text-2xl ">Cartoon</div>
-        <div class="gap-4 md:flex">
-        <a href="#" class="text-white hover:text-black text-xl ">Home</a>
-         <a href="#" class="text-white hover:text-black text-xl">Products</a>
-          <a href="#" class="text-white hover:text-black text-xl">Contact</a>
+<body class="bg-black">
+    <nav class="bg-pink-300 p-4 sticky top-0">
+  <div className="flex ">
+    <!-- Logo -->
+    <h1 class="font-black text-xl ">Story Cloud</h1>
+
+    <!-- Links -->
+    <div class="flex justify-end space-x-9">
+      <a href="index.html" class="font-medium hover:text-red-900">Home</a>
+      <a href="catogories.html" class="font-medium hover:text-red-800">Categories</a>
+      <a href="#" class="font-medium hover:text-red-800">Stories</a>
+      <a href="#" class="font-medium hover:text-red-800">Posters</a>
     </div>
-    </nav>
-    <sction class="flex flex-col items-center">
-      <h1 class="p-3 text-4xl text-center mt-6">⭐</h1>
-      <h1 class="text-pink-600  md:text-lg lg:text-5xl font-bold text-5xl mt-10 text-center" >weclome to cartoon!</h1>
-      <h1 class="text-black-600  md:text-lg lg:text-3xl font-light text-5xl mt-10 text-center" >Explore more cartoon here and have fun with your friends and family</h1>
-      <a href="#" class="bg-blue-400 rounded-lg mt-6 p-4 ">Shop now</a>
-      </section>
-      <div class=" flex flex-col justify-center sm: flex-row flex-wrap items-center mt-6 gap-6 ">
-        <img src="image.png" alt="cartoon" class="w-50 h-100 rounded-lg">
-        <img src="image copy.png" alt="cartoon" class="w-50 h-100  rounded-lg">
-         <img src="image copy 2.png" alt="cartoon" class="w-50 h-100  rounded-lg">
-         <img src="image copy 3.png" alt="cartoon" class="w-50 h-100  rounded-lg">
+  </div>
+</nav>
 
 
-      </div>
-      <footer class="bg-purple-200 m-6 px-2 py-7">
-        <h1 class="text-black text-lg">&copy; 2025 cartoon. All rights reserved. </h1>
-      </footer>
-      
-</body></html>
+    <div>
+        <h1 class="md:text-4xl font-bold text-white text-center mt-20 sm:text-3xl  ">Unlock the World of Wonders!</h1>
+        <p class="text-white  p-15 text-center text-2xl">Meet clever animals, brave heroes, and little lessons hiding in every corner.</p>
+        
+        <div class="flex flex-cols justify-center transform transition duration-500 ease-in">
+            <a href="stories.html">
+        <button class="text-xl bg-pink-300 rounded-lg p-2 hover:scale-105 bg-yellow-300 ">Explore more</button>
+        </a>
+        </div>
+
+        <div class="flex md:flex-cols space-x-9 p-9 m-10 transform transition duration-500 ease-in sm:flex-row flex-wrap gap-4">
+             <img src="image copy.png" alt="story1"  class=" rounded-lg w-60  h-90 hover:scale-105 ">
+             <img src="image copy 2.png" alt="story2"  class=" rounded-lg w-60  h-90 hover:scale-105 ">
+             <img src="image copy 3.png" alt="story3"  class=" rounded-lg w-60  h-90 hover:scale-105">
+             <img src="image copy 4.png" alt="story4"  class=" rounded-lg w-60  h-90 hover:scale-105">
+             <img src="image copy 5.png" alt="story4"  class=" rounded-lg w-60  h-90 hover:scale-105">
+             
+
+</div>
+
+    </div>
+    <footer>
+        <div class="bg-gray-900 p-4 mt-30 ">
+            <h1 class="text-white text-center">@2025 Reserved all copyrights</h1>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+</body>
+</html>
